@@ -5,6 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    age = int(input("age"))
+    lenth = int(input("lenth"))
+    if age >= 14 or lenth >= 160:
+        print("X")
+    else:
+        print("O")
 
     return
 

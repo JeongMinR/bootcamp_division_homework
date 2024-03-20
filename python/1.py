@@ -5,8 +5,19 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    number = input("number")
+    number = list(number)
+    first = 0
+    end = len(number) - 1
+    while first < end:
+        temp = number[first]
+        number[first] = number[end]
+        number[end] = temp
+        first += 1
+        end -= 1
 
-    return
+    number = "".join(number)
+    print(number)
 
 
 if __name__ == '__main__':
