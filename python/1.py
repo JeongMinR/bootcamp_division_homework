@@ -5,7 +5,7 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    number = input("number")
+    number = input()
     number = list(number)
     first = 0
     end = len(number) - 1

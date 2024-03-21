@@ -5,14 +5,14 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    number = int(input("number"))
+    number = int(input())
     s = 0
     total = 1
     for n in range(1,(number +1)):
-     s += n
-     print (s)
-     total * n 
-     print (total)
+      s += n
+      total = total* n 
+    print (s)
+    print (total)
 
     return
 

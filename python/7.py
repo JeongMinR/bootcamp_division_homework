@@ -5,8 +5,8 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    year = int(input("year"))
-    month = int(input("month"))
+    year = int(input())
+    month = int(input())
     if month == 2:
         if year % 4 == 0 and year % 400 == 0 : #윤년
              print(29)
